@@ -19,13 +19,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
-        
+        <!-- webjars -->
+        <dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>webjars-locator</artifactId>
+		</dependency>
 		<!-- mysql驱动 -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-
         <!--mapper-->
         <dependency>
             <groupId>tk.mybatis</groupId>
@@ -44,17 +47,11 @@
 			<artifactId>ldf-ui</artifactId>
 			<version>0.1.0</version>
 		</dependency>
-		
+		<!-- angularjs -->
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>angularjs</artifactId>
 			<version>1.6.6</version>
 		</dependency>
-		
-		<dependency>
-			<groupId>org.webjars</groupId>
-			<artifactId>webjars-locator</artifactId>
-		</dependency>
-		
     </dependencies>
 </project>
